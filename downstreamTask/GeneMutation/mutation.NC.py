@@ -25,7 +25,7 @@ df_features.columns = ['samplename', 'feature']
 
 df_txt = pd.read_csv(txt_file, sep='\t', header=None)
 if df_txt.shape[0] < 2:
-    raise ValueError("TXT文件应包含至少两行：第一行为样本名，第二行及以后为基因的突变检测结果")
+    raise ValueError("TXT file has at least tow rows, the first is sample name and the second is mutation results")
 
 samplenames = df_txt.iloc[0].tolist()
 gene_names = df_txt[0].tolist()[1:]
@@ -33,7 +33,7 @@ print(f"Genes to process: {gene_names}")
 
 missing_samples = set(df_features['samplename']) - set(samplenames)
 if missing_samples:
-    print(f"以下样本在特征文件中存在，但在标签文件中没有分类信息，将被移除: {missing_samples}")
+    print(f" remove: {missing_samples}")
     df_features = df_features[df_features['samplename'].isin(samplenames)]
 
 def remove_outlier_samples(df_features: pd.DataFrame,
