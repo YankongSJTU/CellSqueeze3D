@@ -2,13 +2,13 @@
 
 **Infer the spatial distribution and boundaries of individual cells from single HE slide patch**
 
-## 📖 Overview
+## 📖 Overview 
 
 Although H&E stained histology images are conventionally analyzed in 2D, the inherent thickness of the tissue section means they contain crucial 3D spatial information. This subtle cellular distribution, which manifests as nuclear overlap and morphological changes in 2D projection, offers rich insights into tissue architecture and pathology.
 
 CellSqueeze3D is a novel computational framework that reconstructs cellular spatial distribution and size from a single H&E-stained section. Our method operates on the principle that the compression of cells into a 2D projection preserves critical 3D geometric features. The algorithm uses a hybrid optimization strategy, combining Particle Swarm Optimization (PSO) with biomechanical constraints such as avoiding cell overlap, to ensure biologically plausible reconstructions.
 
-**Key Features**
+**Key Features** 
 ✔ 3D Reconstruction: Infers spatial distribution and boundaries of individual cells from 2D H&E images  
 ✔ Hybrid Optimization: Combines Particle Swarm Optimization with biomechanical constraints  
 ✔ Clinical Relevance: Reconstructed features correlate with tumor stage and gene expression profiles  
