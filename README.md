@@ -66,10 +66,11 @@ Our method demonstrates significant improvements:
 ## 📜 Applications
 
 CellSqueeze3D enables:
-✔ Enhanced computational pathology and quantitative tissue phenotyping
-✔ Novel prognostic insights through 3D cellular morphology
-✔ Correlation analysis with genetic mutations and expression profiles
-✔ Improved understanding of tissue architecture and pathology
+
+✔ Enhanced computational pathology and quantitative tissue phenotyping 
+✔ Novel prognostic insights through 3D cellular morphology 
+✔ Correlation analysis with genetic mutations and expression profiles 
+✔ Improved understanding of tissue architecture and pathology 
 
 If you use CellFormer in your research, please cite:
 ```bibtex
