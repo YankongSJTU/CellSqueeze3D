@@ -1,7 +1,10 @@
 CellSqueeze3D: 3D Cellular Reconstruction from 2D Histology Images
 
-https://img.shields.io/badge/Python-3.7%252B-blue](https://github.com/YankongSJTU/CellSqueeze3D/blob/main/data/DemoFig.png
+https://img.shields.io/badge/Python-3.7%252B-blue
+https://img.shields.io/badge/PyTorch-1.8%252B-orange
+https://img.shields.io/badge/License-MIT-green
 
+https://github.com/YankongSJTU/CellSqueeze3D/blob/main/data/DemoFig.png
 Overview
 
 Although H&E stained histology images are conventionally analyzed in 2D, the inherent thickness of the tissue section means they contain crucial 3D spatial information. This subtle cellular distribution, which manifests as nuclear overlap and morphological changes in 2D projection, offers rich insights into tissue architecture and pathology.
@@ -20,7 +23,7 @@ Key Features
 Installation
 bash
 
-git clone https://github.com/yourusername/CellSqueeze3D.git
+git clone https://github.com/YankongSJTU/CellSqueeze3D.git
 cd CellSqueeze3D
 pip install -r requirements.txt
 
@@ -87,8 +90,8 @@ If you use CellSqueeze3D in your research, please cite our publication:
 bibtex
 
 @article{CellSqueeze3D,
-  title={CCellSqueeze3D：Inferring 3D Cellular Architectures from Single Histology Sections via Biomechanical Constraint-Guided Optimization},
-  author={Yan Kong AND Hui Lu},
+  title={CellSqueeze3D: Inferring 3D Cellular Architectures from Single Histology Sections via Biomechanical Constraint-Guided Optimization},
+  author={Yan Kong and Hui Lu},
   journal={bioRxiv},
   year={2025}
 }
