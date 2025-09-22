@@ -1,0 +1,4 @@
+Please down load via link: https://drive.google.com/file/d/1eKhFrCS_OXzH6ILJS-SyKry4f3BgXPWl/view?usp=sharing
+
+we annotated 26 5000*5000 pixel size region (40X view) from TCGA HNSC cohort. 
+
