@@ -52,15 +52,20 @@ python Simulate_main.py --data Demodata.traindata.pkl --save_freq 20 --checkpoin
     .ply files: 3D mesh files viewable in MeshLab software
 
     .json files: Contain predicted 3D cellular coordinates, cell radii, and boundary curves at Z=0 plane
+
+<div>
+<img src="[https://github.com/YankongSJTU/CellSqueeze3D/blob/main/data/DemoFig.png]"   width="20%">
+
+</div>
 ## 🏆 Benchmark Results
 
 Our method demonstrates significant improvements:
 
-    Predicted cell radii resulted in significantly different nuclear-to-cytoplasmic (N/C) ratio distribution (p=1.39×10⁻⁸⁰)
-    95% accuracy in cell-type classification with 0.136 AUC improvement
-    Shannon entropy of N/C ratio positively correlates with TNM stage of tumors
-    Cellular morphology features strongly correlate with gene expression profiles
-    Nuclear/cellular size indices predict mutation status of 21 genes in TCGA cohorts (median AUROC > 0.65)
+-  Predicted cell radii resulted in significantly different nuclear-to-cytoplasmic (N/C) ratio distribution (p=1.39×10⁻⁸⁰)
+-  95% accuracy in cell-type classification with 0.136 AUC improvement
+-  Shannon entropy of N/C ratio positively correlates with TNM stage of tumors
+-  Cellular morphology features strongly correlate with gene expression profiles
+-  Nuclear/cellular size indices predict mutation status of 21 genes in TCGA cohorts (median AUROC > 0.65)
 
 
 ## 📜 Applications
