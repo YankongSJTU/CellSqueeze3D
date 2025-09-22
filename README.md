@@ -1,8 +1,7 @@
 CellSqueeze3D: 3D Cellular Reconstruction from 2D Histology Images
 
-https://img.shields.io/badge/Python-3.7%252B-blue
-https://img.shields.io/badge/PyTorch-1.8%252B-orange
-https://img.shields.io/badge/License-MIT-green
+https://img.shields.io/badge/Python-3.7%252B-blue](https://github.com/YankongSJTU/CellSqueeze3D/blob/main/data/DemoFig.png
+
 Overview
 
 Although H&E stained histology images are conventionally analyzed in 2D, the inherent thickness of the tissue section means they contain crucial 3D spatial information. This subtle cellular distribution, which manifests as nuclear overlap and morphological changes in 2D projection, offers rich insights into tissue architecture and pathology.
