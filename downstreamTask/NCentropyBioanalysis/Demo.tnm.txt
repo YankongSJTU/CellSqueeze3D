@@ -1,0 +1,4 @@
+ID      TCGA-05-4244    TCGA-05-4245    TCGA-05-4249    TCGA-05-4250    TCGA-05-4382    TCGA-05-4384    TCGA-05-4389    TCGA-05-4390    TCGA-05-4395
+TNM_M   M1      M0      M0      M0      M0      M0      M0      M0      M0
+TNM_N   N2      N2      N0      N1      N0      N2      N0      N0      N2
+TNM_T   T2      T2      T2      T3      T2      T2      T1      T2      T4
