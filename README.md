@@ -54,7 +54,7 @@ python Simulate_main.py --data Demodata.traindata.pkl --save_freq 20 --checkpoin
     .json files: Contain predicted 3D cellular coordinates, cell radii, and boundary curves at Z=0 plane
 
 <div>
-<img src="[data/DemoFig.png]"   width="100%">
+<img src="[blob/main/data/DemoFig.png]"   width="100%">
 </div>
 ## 🏆 Benchmark Results
 
