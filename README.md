@@ -76,15 +76,7 @@ CellSqueeze3D enables:
 ✔ Correlation analysis with genetic mutations and expression profiles 
 ✔ Improved understanding of tissue architecture and pathology 
 
-If you use CellFormer in your research, please cite:
-```bibtex
-@article{CellSqueeze3D2025,
-  title={CellSqueeze3D: Inferring 3D Cellular Architectures from Single Histology Sections via Biomechanical Constraint-Guided Optimization},
-  author={Yan Kong and Hui Lu},
-  journal={arXiv},
-  year={2025}
-}
-```
+
 ##  📧 Contact
 For questions and support, please open an issue on GitHub or contact.
 Please feel free to contact me (biogene2017@foxmail.com).
